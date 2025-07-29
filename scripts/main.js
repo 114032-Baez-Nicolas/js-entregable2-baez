@@ -1,5 +1,7 @@
+// Recuperar libros del localStorage o iniciar array vacío
 let libros = JSON.parse(localStorage.getItem('libros')) || [];
 
+// Verificar en qué página estamos
 const esIndex = window.location.pathname.includes('index.html') || window.location.pathname.endsWith('/');
 const esBiblioteca = window.location.pathname.includes('biblioteca.html');
 

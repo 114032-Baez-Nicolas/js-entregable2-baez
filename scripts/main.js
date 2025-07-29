@@ -45,3 +45,38 @@ if (esIndex) {
     // Deshabilitar botón al inicio
     btnAgregar.disabled = true;
 }
+
+// ================= biblioteca.html (mostrar libros) =================
+if (esBiblioteca) {
+    const contenedor = document.querySelector('#libros');
+
+    if (libros.length === 0) {
+        contenedor.innerHTML = '<p class="text-center">No hay libros en la biblioteca.</p>';
+    } else {
+        libros.forEach((libro, index) => {
+            const tarjeta = document.createElement('div');
+            tarjeta.classList.add('col-md-4');
+
+            tarjeta.innerHTML = `
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">${libro.titulo}</h5>
+            <p class="card-text">Autor: ${libro.autor}</p>
+            <button class="btn btn-danger eliminar" data-index="${index}">Eliminar</button>
+          </div>
+        </div>
+      `;
+            contenedor.appendChild(tarjeta);
+        });
+
+        // Eliminar libro
+        document.querySelectorAll('.eliminar').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const index = e.target.dataset.index;
+                libros.splice(index, 1);
+                localStorage.setItem('libros', JSON.stringify(libros));
+                location.reload();
+            });
+        });
+    }
+}

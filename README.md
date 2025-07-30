@@ -1,14 +1,14 @@
 # 📚 Entregable 2 - Biblioteca Duarte Quirós
 
-**Autor:** Nicolás Báez  
-**Curso:** JavaScript Flex - Coderhouse  
+**Autor:** Nicolás Báez
+**Curso:** JavaScript Flex - Coderhouse
 **Entrega:** Segunda Entrega (DOM + Eventos + Storage)
 
 ---
 
 ## 📝 Descripción del proyecto
 
-Este proyecto es una **biblioteca digital simple** que permite al usuario **agregar y visualizar libros** a través de un formulario. Toda la información se almacena en `localStorage` y se muestra dinámicamente en otra vista.  
+Este proyecto es una **biblioteca digital simple** que permite al usuario **agregar y visualizar libros** a través de un formulario. Toda la información se almacena en `localStorage` y se muestra dinámicamente en otra vista.
 Está desarrollado con **JavaScript moderno**, usando **manipulación del DOM**, **eventos**, y **Bootstrap 5** para el diseño responsive.
 
 ---
@@ -57,4 +57,5 @@ Está desarrollado con **JavaScript moderno**, usando **manipulación del DOM**,
 
 ## 💬 Nota
 
-Este proyecto **elimina por completo el uso de consola, prompt y alert**, cumpliendo con los requisitos de la Entrega 2. Toda la interacción se realiza desde la interfaz web mediante formularios y botones.  
+Este proyecto **elimina por completo el uso de consola, prompt y alert**, cumpliendo con los requisitos de la Entrega
+Toda la interacción se realiza desde la interfaz web mediante formularios y botones.

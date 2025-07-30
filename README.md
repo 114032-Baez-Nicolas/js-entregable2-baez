@@ -1,7 +1,7 @@
 # 📚 Entregable 2 - Biblioteca Duarte Quirós
 
-**Autor:** Nicolás Báez
-**Curso:** JavaScript Flex - Coderhouse
+**Autor:** Nicolás Báez  
+**Curso:** JavaScript Flex - Coderhouse  
 **Entrega:** Segunda Entrega (DOM + Eventos + Storage)
 
 ---

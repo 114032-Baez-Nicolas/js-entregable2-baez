@@ -9,7 +9,7 @@
 ## 📝 Descripción del proyecto
 
 Este proyecto es una **biblioteca digital simple** que permite al usuario **agregar y visualizar libros** a través de un formulario. Toda la información se almacena en `localStorage` y se muestra dinámicamente en otra vista.
-Está desarrollado con **JavaScript moderno**, usando **manipulación del DOM**, **eventos**, y **Bootstrap 5** para el diseño responsive.
+Está desarrollado con **JavaScript moderno**, usando **manipulación del DOM**, **eventos**, y **Bootstrap** para el diseño responsive.
 
 ---
 
